@@ -1,6 +1,11 @@
 def hours_minutes(seconds):
-  # Your code here
-  return None
+    
+    hours = seconds // 3600
+    
+    minutes = (seconds % 3600) // 60
 
-# Invoke the function and pass any integer as its argument
-print(hours_minutes(3900))
+    return hours, minutes
+
+
+print(hours_minutes(3900))  
+print(hours_minutes(60))    

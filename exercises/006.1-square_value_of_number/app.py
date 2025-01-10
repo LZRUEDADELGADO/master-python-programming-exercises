@@ -1,5 +1,6 @@
 def square(num):
-    # Your code here
-    return None
+    
+    return num ** 2
+
 
 print(square(6))

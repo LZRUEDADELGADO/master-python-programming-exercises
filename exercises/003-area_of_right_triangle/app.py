@@ -1,7 +1,7 @@
-# Complete the function to return the area of a triangle
+# Función para calcular el área de un triángulo rectángulo
 def area_of_triangle(base, height):
-    # Your code here, please remove the "None" 
-    return None
+    # Fórmula del área del triángulo rectángulo: (base * altura) / 2
+    return (base * height) / 2
 
-# Testing your function
+
 print(area_of_triangle(3, 5))
